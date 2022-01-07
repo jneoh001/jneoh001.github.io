@@ -1,0 +1,74 @@
+
+/*CSS for Website */
+
+.sectiontext{
+    font-family: monospace,cursive;
+    text-align: center;
+    margin-top: 2rem;
+    text-decoration: underline;
+}
+
+body{
+    position:relative;
+}
+
+#AboutMe, #Skills, #ContactMe{
+    margin-bottom: 150px;
+}
+
+
+.Skillscontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 350px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+.image2, .image3, .image4, .image5{
+    height: 200px;
+    width: 200px;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 992px)
+{
+    #image1{
+        display: block;
+        margin: 20px;
+        height: 250px;
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+.ContactMecontainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#instagram, #github, #email{
+    margin-top: 2em;
+    margin-right: 2em;
+    height: 100px;
+    width: 100px;
+}
+
+
+footer{
+    height: 100px;
+    background-color: white;
+}

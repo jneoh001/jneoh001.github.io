@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Neoh</title>
+
+    <!-- Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap Icons CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+
+ 
+<!-- Navbar-->
+<nav id="mynavbar" class="navbar  navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand" href="#">Javier Neoh</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link" href="#AboutMe">About Me<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#ContactMe">Contact Me</a>
+        </li>  
+      </ul>
+    </div>
+  </nav>
+
+      
+    
+
+
+<!--Contents -->
+<div  >
+  
+  <section id="AboutMe">
+    <h2 class="sectiontext">About Me</h2>
+    <img class="image1" src="images/mypic.jpg" alt="picture of myself">
+    <p class="text-center">My name is Javier and I am a first year Computer Science Student at Nanyang Technological University.</p>
+    <p class="text-center">My hobbies are reading and sports.</p>
+  </section>
+
+  <section id="Skills">
+    <h2 class="sectiontext">Skills</h2>
+      <p class="text-center">These are the languages I am familiar with.</p>
+      <div class="Skillscontainer">
+        <img src="/images/python.png" alt="Python" class="image2" >
+        <img src="images/c.png" alt="" class="image3">
+        <img src="images/html.png" alt="" class="image4">
+        <img src="images/css.png" alt="" class="image5">
+      </div>
+  </section>
+
+
+  <section id="ContactMe">
+    <h2 class="sectiontext">Contact Me</h2>
+    <div class="ContactMecontainer">
+
+      <div>
+      <a href="https://www.instagram.com/javierneoh">
+        <img id="instagram" src="https://i.pinimg.com/736x/02/77/12/027712250a632b2e6f63c5466b792494.jpg" alt="instagram icon">
+      </a>
+      </div>
+      
+      <div >
+        <a href="https://github.com/jneoh001">
+          <img id="github" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="">
+        </a>
+      </div>
+
+      <div>
+        <a href="mailto:javier.neoh@gmail.com">
+          <img id="email" src="data:image/png;base64,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" alt="email image">
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+</div>
+
+
+<footer>
+
+</footer>
+
+
+<!--Bootstrap Scripts-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
